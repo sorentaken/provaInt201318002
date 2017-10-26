@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Prova</string>
+    <string name="tabuada_do_barra">Numero da tabuada</string>
+    <string name="ate_barra">até onde</string>
+    <string name="calculo_send">Calcular</string>
+
+</resources>

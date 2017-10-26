@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arqdsis.project.MainActivity">
+
+    <TextView
+        android:id="@+id/tabuada_do"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tabuada:"></TextView>
+
+    <EditText
+        android:id="@+id/tabuada_do_barra"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/tabuada_do_barra"/>
+
+    <TextView
+        android:id="@+id/ate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="até:"></TextView>
+
+    <EditText
+        android:id="@+id/ate_barra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/ate_barra"/>
+
+   <Button
+       android:id="@+id/button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="calcula"
+       android:text="@string/calculo_send" />
+
+
+</LinearLayout>
